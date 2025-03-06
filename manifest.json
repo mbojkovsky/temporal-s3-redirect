@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "S3 Redirect for Temporal",
+  "version": "1.0",
+  "description": "Highlight JSON with S3 bucket and key information, right-click, and open in S3",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "host_permissions": ["https://cloud.temporal.io/*"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://cloud.temporal.io/*"],
+      "js": ["src/content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "S3 Redirect for Temporal"
+  }
+} 

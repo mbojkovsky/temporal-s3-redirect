@@ -1,0 +1,16 @@
+{
+  "name": "temporal-s3-redirect",
+  "version": "1.0.0",
+  "description": "Browser extension to open S3 objects from Temporal Cloud",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build steps required'"
+  },
+  "keywords": [
+    "browser-extension",
+    "s3",
+    "temporal"
+  ],
+  "author": "",
+  "license": "MIT"
+} 
