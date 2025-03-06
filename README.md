@@ -51,25 +51,3 @@ The extension looks for JSON with the following structure:
   "key": "path/to/your/object.ext"
 }
 ```
-
-## Development
-
-This extension is built to be compatible with both Chrome and Firefox. Due to differences in how these browsers implement the WebExtension API, there are two manifest files:
-
-- `manifest.json`: For Chrome (Manifest V3)
-- `manifest.firefox.json`: For Firefox (Manifest V2)
-
-When developing for Firefox, rename `manifest.firefox.json` to `manifest.json` or replace the existing file.
-
-### Files Structure
-
-- `manifest.json`: Chrome extension configuration (Manifest V3)
-- `manifest.firefox.json`: Firefox extension configuration (Manifest V2)
-- `src/background.js`: Background script for handling context menu and navigation
-- `src/content.js`: Content script for processing selected text
-- `src/polyfill.js`: Browser compatibility layer (used in Firefox)
-- `icons/`: Extension icons
-
-## License
-
-MIT
