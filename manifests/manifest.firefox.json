@@ -7,7 +7,9 @@
         "contextMenus",
         "activeTab",
         "scripting",
-        "https://cloud.temporal.io/*"
+        "https://cloud.temporal.io/*",
+        "http://localhost:8233/*",
+        "http://temporal:8233/*"
     ],
     "background": {
         "scripts": [
@@ -18,7 +20,9 @@
     "content_scripts": [
         {
             "matches": [
-                "https://cloud.temporal.io/*"
+                "https://cloud.temporal.io/*",
+                "http://localhost:8233/*",
+                "http://temporal:8233/*"
             ],
             "js": [
                 "src/polyfill.js",

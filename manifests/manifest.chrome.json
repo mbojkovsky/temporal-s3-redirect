@@ -4,13 +4,21 @@
   "version": "1.0",
   "description": "Highlight JSON with S3 bucket and key information, right-click, and open in S3",
   "permissions": ["contextMenus", "activeTab", "scripting"],
-  "host_permissions": ["https://cloud.temporal.io/*"],
+  "host_permissions": [
+    "https://cloud.temporal.io/*",
+    "http://localhost:8233/*",
+    "http://temporal:8233/*"
+  ],
   "background": {
     "service_worker": "src/background.js"
   },
   "content_scripts": [
     {
-      "matches": ["https://cloud.temporal.io/*"],
+      "matches": [
+        "https://cloud.temporal.io/*",
+        "http://localhost:8233/*",
+        "http://temporal:8233/*"
+      ],
       "js": [
         "src/content.js"
       ]

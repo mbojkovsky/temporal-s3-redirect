@@ -20,7 +20,7 @@ for arg in "$@"; do
             ;;
         --chrome)
             echo "Building Chrome extension..."
-            cp manifests/manifest.firefox.json manifest.json
+            cp manifests/manifest.chrome.json manifest.json
             zip -r web-ext-artifacts/temporal-s3-extension-$(date +%Y%m%d).zip manifest.json icons/* src/* package.json
             rm manifest.json
             ;;
