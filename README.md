@@ -13,26 +13,25 @@ A browser extension that allows you to highlight JSON with S3 bucket and key inf
 
 ### Chrome
 
-1. Download or clone this repository
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable "Developer mode" by toggling the switch in the top right corner
-4. Click "Load unpacked" and select the extension directory
-5. The extension should now be installed and active
+1. Download the latest `.zip` file from the [GitHub Releases](https://github.com/yourusername/s3-redirect-temporal/releases) page
+2. Extract the downloaded zip file to a folder on your computer
+3. Open Chrome and navigate to `chrome://extensions/`
+4. Enable "Developer mode" by toggling the switch in the top right corner
+5. Click "Load unpacked" and select the extracted extension directory
+6. The extension should now be installed and active
+
+> **Important:** Do not delete or move the extracted folder after installation. Chrome references these files directly, and removing them will break the extension.
 
 ### Firefox
 
-1. Download or clone this repository
-2. **Important**: Rename `manifest.firefox.json` to `manifest.json` (or replace the existing manifest.json with manifest.firefox.json)
-3. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
-4. Click "Load Temporary Add-on..."
-5. Navigate to the extension directory and select the `manifest.json` file
-6. The extension should now be installed and active
-
-For permanent installation in Firefox:
-1. Make sure you're using the Firefox manifest (rename `manifest.firefox.json` to `manifest.json`)
-2. Zip the contents of the extension directory
-3. Sign the extension through the [Firefox Add-ons Developer Hub](https://addons.mozilla.org/en-US/developers/)
-4. Install the signed extension
+1. Download the latest `.xpi` file from the [GitHub Releases](https://github.com/yourusername/s3-redirect-temporal/releases) page
+2. Open Firefox
+3. Navigate to `about:addons`
+4. Click the gear icon and select "Install Add-on From File..."
+5. Select the downloaded `.xpi` file
+6. Follow the prompts to complete installation
+7. The extension should now be installed and active
+8. You can now delete the `.xpi` file
 
 ## Usage
 

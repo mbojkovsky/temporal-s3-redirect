@@ -1,1 +1,7 @@
- 
+.env
+
+# extensions signing artifacts
+web-ext-artifacts/
+
+# FF signature data
+.amo-upload-uuid
