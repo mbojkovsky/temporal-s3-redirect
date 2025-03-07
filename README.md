@@ -1,6 +1,7 @@
 # S3 Redirect for Temporal
 
 A browser extension that allows you to highlight JSON with S3 bucket and key information on Temporal Cloud, right-click, and open the object directly in AWS S3 console.
+Support also locally run Temporal and Minio.
 
 ## Features
 
@@ -35,11 +36,11 @@ A browser extension that allows you to highlight JSON with S3 bucket and key inf
 
 ## Usage
 
-1. Navigate to https://cloud.temporal.io/
+1. Navigate to https://cloud.temporal.io/ (or http://localhost:8233)
 2. Find and select JSON text that contains S3 bucket and key information
 3. Right-click on the selected text
 4. Click "Open in S3" from the context menu
-5. The S3 object will open in a new tab in the AWS console
+5. The S3 object will open in a new tab in the AWS console (or in Minio)
 
 ## Example JSON Format
 
