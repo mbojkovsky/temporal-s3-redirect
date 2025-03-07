@@ -8,8 +8,8 @@
         "activeTab",
         "scripting",
         "https://cloud.temporal.io/*",
-        "http://localhost:8233/*",
-        "http://temporal:8233/*"
+        "http://temporal/*",
+        "http://localhost/*"
     ],
     "background": {
         "scripts": [
@@ -21,8 +21,8 @@
         {
             "matches": [
                 "https://cloud.temporal.io/*",
-                "http://localhost:8233/*",
-                "http://temporal:8233/*"
+                "http://localhost/*",
+                "http://temporal/*"
             ],
             "js": [
                 "src/polyfill.js",

@@ -6,8 +6,8 @@ chrome.runtime.onInstalled.addListener(() => {
     contexts: ["selection"],
     documentUrlPatterns: [
       "https://cloud.temporal.io/*",
-      "http://localhost:8233/*",
-      "http://temporal:8233/*",
+      "http://temporal/*",
+      "http://localhost/*",
     ],
   });
 });
