@@ -8,3 +8,5 @@ web-ext-artifacts/
 
 # used for development purposes
 manifest.json
+
+.DS_Store

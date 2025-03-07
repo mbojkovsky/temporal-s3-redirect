@@ -13,7 +13,7 @@ A browser extension that allows you to highlight JSON with S3 bucket and key inf
 
 ### Chrome
 
-1. Download the latest `.zip` file from the [GitHub Releases](https://github.com/yourusername/s3-redirect-temporal/releases) page
+1. Download the latest `.zip` file from the [latest releases](https://github.com/mbojkovsky/temporal-s3-redirect/releases)
 2. Extract the downloaded zip file to a folder on your computer
 3. Open Chrome and navigate to `chrome://extensions/`
 4. Enable "Developer mode" by toggling the switch in the top right corner
@@ -24,7 +24,7 @@ A browser extension that allows you to highlight JSON with S3 bucket and key inf
 
 ### Firefox
 
-1. Download the latest `.xpi` file from the [GitHub Releases](https://github.com/yourusername/s3-redirect-temporal/releases) page
+1. Download the latest `.xpi` file from the [latest release](https://github.com/mbojkovsky/temporal-s3-redirect/releases)
 2. Open Firefox
 3. Navigate to `about:addons`
 4. Click the gear icon and select "Install Add-on From File..."
